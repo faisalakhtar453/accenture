@@ -1,113 +1,184 @@
+// 'use client'
 import Image from 'next/image'
+import A1A from "../../public/A1-A.webp";
+import AddedMedia from "../../public/Added Media-1.svg";
+// import Experience from "../../public/Experience.png";
+import { IoIosArrowForward } from 'react-icons/io';
+// import Link from 'next/link';
+import 'animate.css';
+import Link from 'next/link';
+import CarouselWithRightCaption from './Carousel';
 
 export default function Home() {
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <>
+      {/* REINVENT WHAT YOUR */}
+      <div className='bg-black'>
+        <div className='text-white text-center py-5'>
+          <h1 className='lg:text-8xl md:text-6xl sm:text-4xl font-black flex justify-start'>REINVENT WHAT YOUR</h1>
+          <h1 className='lg:text-8xl md:text-6xl sm:text-4xl font-black flex justify-end'>BUSINESS COULD BE</h1>
+          <div className='sm:text-3xl font-medium flex justify-center pt-5 items-center gap-5'>
+            <p>Let there be change</p>
+            <div className='bg-[#A100FF]'>
+              <IoIosArrowForward size={20} />
+            </div>
+          </div>
         </div>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      {/* 360 */}
+      <div className='bg-black py-16 text-white text-center'>
+        <div className='md:w-2/4 w-11/12 mx-auto'>
+          <p className='lg:text-8xl md:text-6xl text-4xl font-bold'>360<sup>&#9675;</sup> Value</p>
+          <p className='lg:text-4xl md:text-2xl text-lg'>Every day, we embrace change and create value for all our stakeholders, in every part of the world.</p>
+        </div>
       </div>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+      {/* carousel */}
+      <CarouselWithRightCaption />
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      {/* Global recognition and awards */}
+      <div className='bg-black '>
+        <div className='w-[87%] mx-auto pt-[25%]'>
+          <p className='text-white lg:text-8xl md:text-6xl sm:text-4xl text-center sticky top-[35%]'>Global recognition and awards</p>
+          <div className='text-white z-10 relative'>
+            <div className='py-[45%]'>
+              <div>
+                <div className="hover-effect-container1 md:w-[47%] relative">
+                  <figure className="hover-effect-figure">
+                    <h2 className='absolute -bottom-[80%] p-3 text'>We're one of Fortune's World's Most Admired Companies</h2>
+                    <figcaption className='bg-[#460073]'>
+                      <div className="hover-effect-content p-5">
+                        <p>We are celebrating our 21st consecutive year on the list and 10th consecutive year as No. 1 in IT Services.</p>
+                        <Link href="/" className='flex items-center self-end me-5'>Expand <IoIosArrowForward size={20} /></Link>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div className='my-20 ms-auto md:flex justify-end h-[340px]'>
+                  <div className="hover-effect-container2 md:w-[47%]">
+                    <figure className="hover-effect-figure">
+                      <h2 className='absolute -bottom-[80%] p-3 text'>We're one of Fortune's World's Most Admired Companies</h2>
+                      <figcaption className='bg-[#E2062E]'>
+                        <div className="hover-effect-content p-5">
+                          <p>We are celebrating our 21st consecutive year on the list and 10th consecutive year as No. 1 in IT Services.</p>
+                          <Link href="/" className='flex items-center self-end me-5'>Expand <IoIosArrowForward size={20} /></Link>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+                <div className='md:flex justify-center h-[340px]'>
+                  <div className="hover-effect-container3 md:w-[47%]">
+                    <figure className="hover-effect-figure">
+                      <h2 className='absolute -bottom-[80%] p-3 text'>We're one of Fortune's World's Most Admired Companies</h2>
+                      <figcaption className='bg-[#0041F0]'>
+                        <div className="hover-effect-content p-5">
+                          <p>We are celebrating our 21st consecutive year on the list and 10th consecutive year as No. 1 in IT Services.</p>
+                          <Link href="/" className='flex items-center self-end me-5'>Expand <IoIosArrowForward size={20} /></Link>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </main>
+
+      {/* <div className='bg-black '>
+        <div className='w-[87%] mx-auto pt-[25%]'>
+          <p className='text-white lg:text-8xl md:text-6xl sm:text-4xl text-center sticky top-[35%]'>Global recognition and awards</p>
+          <div className='text-white z-10 relative'>
+            <div className='py-[45%]'>
+              <div>
+                <div onMouseEnter={onEnter1} className='bg-[#460073] relative sm:w-[47%] h-[340px]'>
+                  <div  className={`${hover1} `}>
+                    <div className='flex  flex-col justify-end h-full'>
+                    <h3 className='sm:text-2xl p-5 absolut bottom- text-left'>We&apos;re one of Fortune&apos;s World&apos;s Most Admired Companies</h3>
+                    </div>
+                    <h3 className='sm:text-2xl p-5 absolut bottom- self-start'>We are celebrating our 21st consecutive year on the list and 10th consecutive year as No. 1 in IT Services.</h3>
+                  </div>
+                </div>
+                <div className='bg-[#E2062E] my-20 ms-auto sm:me-[14%] relative sm:w-[47%] h-[340px]'>
+                  <div>
+                    <h3 className='sm:text-2xl p-5 absolute bottom-0'>We&apos;re one of Fortune&apos;s World&apos;s Most Admired Companies</h3>
+                  </div>
+                </div>
+                <div className='bg-[#0041F0] sm:ms-[19%] relative sm:w-[47%] h-[340px]'>
+                  <div>
+                    <h3 className='sm:text-2xl p-5 absolute bottom-0'>We&apos;re one of Fortune&apos;s World&apos;s Most Admired Companies</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+      {/* OUR CULTURE */}
+      <div className='bg-black pt-[20%]'>
+        {/* <div className='grid grid-cols-2'> */}
+        <div className='sm:flex justify-between'>
+          <div>
+            <Image src={A1A} className='w-[90%] h-auto' alt='A1A' />
+            <Image src={AddedMedia} className='w-[90%] h-auto' alt='AddedMedia' />
+          </div>
+          <div className='text-white sm:mt-[184px] ps-5 sm:ps-0 pb-6 me-20 sm:w-[350px]'>
+            <p className='font-medium text-[0.875rem]'>OUR CULTURE</p>
+            <p className='lg:text-2xl my-6'>We combine technology with human ingenuity to solve some of the world's biggest challenges. When you work with us, the possibilities are endless.</p>
+            <div className='text-base font-medium flex items-center gap-3'>
+              <p>Join us</p><div className='bg-[#A100FF] w-5'><IoIosArrowForward size={20} /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Let there be change */}
+      <div className='bg-black'>
+        <div className='w-[87%] mx-auto'>
+          <div className='text-white'>
+            <h4 className='text-4xl font-medium pb-20'>Let there be change</h4>
+            <div className='lg:grid grid-cols-2'>
+              <div>
+                <div className='grid grid-cols-2 mb-8'>
+                  <ul className='grid gap-3 text-sm'>
+                    <li className='hover:text-[#A2A2A0] hover:cursor-pointer hoverText'>Preference Center <hr /> </li>
+                    <li className='text-[#A2A2A0] hover:cursor-pointer hoverText'>Careers</li>
+                    <li className='hover:text-[#A2A2A0] hover:cursor-pointer hoverText'>About Us<hr /></li>
+                    <li className='hover:text-[#A2A2A0] hover:cursor-pointer hoverText'>Contact Us<hr /></li>
+                    <li className='hover:text-[#A2A2A0] hover:cursor-pointer hoverText'>Locations<hr /></li>
+                    <li className='hover:text-[#A2A2A0] hover:cursor-pointer hoverText'>Sitemap<hr /></li>
+                  </ul>
+                  <ul className='grid gap-3 text-sm'>
+                    <li className='hover:text-[#A2A2A0] hover:cursor-pointer hoverText'>Privacy Statement<hr /></li>
+                    <li className='hover:text-[#A2A2A0] hover:cursor-pointer hoverText'>Terms & Conditions<hr /></li>
+                    <li className='hover:text-[#A2A2A0] hover:cursor-pointer hoverText'>Cookie Policy/Settings<hr /></li>
+                    <li className='hover:text-[#A2A2A0] hover:cursor-pointer hoverText'>Accessibility Statement<hr /></li>
+                    <li className='hover:text-[#A2A2A0] hover:cursor-pointer hoverText'>Do Not Sell/Share My Personal Information (for CA)<hr /></li>
+                  </ul>
+                </div>
+                <p>&copy; 2023 Accenture. All Rights Reserved.</p>
+              </div>
+              <div>
+                dv kj
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   )
+}
+
+
+
+export const metadata = {
+  title: "Your connected workspace for wiki, docs &amp; projects | accenture",
+  description: "A new tool that blends your everyday work apps into one. It&#x27;s the all-in-one workspace for you and your team.",
+  openGraph: {
+    title: 'Your connected workspace for wiki, docs &amp; projects | accenture',
+    description: "A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team.",
+    images: '../../public/Let There Be Change_Metadata.webp',
+  }
 }
