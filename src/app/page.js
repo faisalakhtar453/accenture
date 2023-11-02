@@ -127,7 +127,7 @@ export default function Home() {
           </div>
           <div className='text-white sm:mt-[184px] ps-5 sm:ps-0 pb-6 me-20 sm:w-[350px]'>
             <p className='font-medium text-[0.875rem]'>OUR CULTURE</p>
-            <p className='lg:text-2xl my-6'>We combine technology with human ingenuity to solve some of the world's biggest challenges. When you work with us, the possibilities are endless.</p>
+            <p className='lg:text-2xl my-6'>We combine technology with human ingenuity to solve some of the world&apos;s biggest challenges. When you work with us, the possibilities are endless.</p>
             <div className='text-base font-medium flex items-center gap-3'>
               <p>Join us</p><div className='bg-[#A100FF] w-5'><IoIosArrowForward size={20} /></div>
             </div>
@@ -179,6 +179,6 @@ export const metadata = {
   openGraph: {
     title: 'Your connected workspace for wiki, docs &amp; projects | accenture',
     description: "A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team.",
-    images: '../../public/Let There Be Change_Metadata.webp',
+    images: '../../public/LetThereBeChange_Metadata.webp',
   }
 }
