@@ -47,7 +47,7 @@ export default function Home() {
               <div>
                 <div className="hover-effect-container1 md:w-[47%] relative">
                   <figure className="hover-effect-figure">
-                    <h2 className='absolute -bottom-[80%] p-3 text'>We're one of Fortune's World's Most Admired Companies</h2>
+                    <h2 className='absolute -bottom-[80%] p-3 text'>We&apos;re one of Fortune&apos;s World&apos;s Most Admired Companies</h2>
                     <figcaption className='bg-[#460073]'>
                       <div className="hover-effect-content p-5">
                         <p>We are celebrating our 21st consecutive year on the list and 10th consecutive year as No. 1 in IT Services.</p>
@@ -59,7 +59,7 @@ export default function Home() {
                 <div className='my-20 ms-auto md:flex justify-end h-[340px]'>
                   <div className="hover-effect-container2 md:w-[47%]">
                     <figure className="hover-effect-figure">
-                      <h2 className='absolute -bottom-[80%] p-3 text'>We're one of Fortune's World's Most Admired Companies</h2>
+                      <h2 className='absolute -bottom-[80%] p-3 text'>We&apos;re one of Fortune&apos;s World&apos;s Most Admired Companies</h2>
                       <figcaption className='bg-[#E2062E]'>
                         <div className="hover-effect-content p-5">
                           <p>We are celebrating our 21st consecutive year on the list and 10th consecutive year as No. 1 in IT Services.</p>
@@ -72,7 +72,7 @@ export default function Home() {
                 <div className='md:flex justify-center h-[340px]'>
                   <div className="hover-effect-container3 md:w-[47%]">
                     <figure className="hover-effect-figure">
-                      <h2 className='absolute -bottom-[80%] p-3 text'>We're one of Fortune's World's Most Admired Companies</h2>
+                      <h2 className='absolute -bottom-[80%] p-3 text'>We&apos;re one of Fortune&apos;s World&apos;s Most Admired Companies</h2>
                       <figcaption className='bg-[#0041F0]'>
                         <div className="hover-effect-content p-5">
                           <p>We are celebrating our 21st consecutive year on the list and 10th consecutive year as No. 1 in IT Services.</p>
